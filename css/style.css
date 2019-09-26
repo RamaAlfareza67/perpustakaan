@@ -651,12 +651,12 @@ sub_menu .sub_menu_social_icon a {
 .garis{
     position: relative;
     float: right;
-    right: -165px;
+    right: -48px;
     top: -26px;
     content: "";
     display: block;
-    margin: 20px auto 15px -60px;
-    width: 150px;
+    margin: 18px auto 60px -49px;
+    width: 25px;
     border-bottom: 10px solid #000000;
 }
 
@@ -1894,9 +1894,15 @@ sub_menu .sub_menu_social_icon a {
 .post.post-event .event-date {
     border-right: 1px solid #E6E6E6;
     text-align: center;
+    margin-top: -15px;
+}
+.event-date{
+   border-right: 1px solid #E6E6E6;
+    text-align: center;
+    margin-top: -15px;
 }
 .post .post-event .event-date span {
-    
+   
 }
 .post .post-event .event-date strong {
     display: block;
@@ -2161,4 +2167,14 @@ a.makeap_but {
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+}
+.bg-berita{
+  background-color: #6e7510;
+  opacity: 0.8;
+}
+.list-group-item .list-group-item-active {
+    z-index: 2;
+    color: #131212;
+    background-color: #a5c581;
+    border-color: #007bff;
 }
